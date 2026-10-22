@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org)
-[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-success.svg)](https://github.com/eco-null/md-to-thread)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-success.svg)](https://github.com/postready/md-to-thread)
 [![Powered by PostReady](https://img.shields.io/badge/Powered%20by-PostReady.org-purple.svg)](https://postready.org)
 
 `md-to-thread` is a lightweight, zero-dependency CLI tool and Node.js library that parses long Markdown text or blog posts and breaks them into clean, platform-optimized social media threads with natural sentence boundaries and automated numbering.
