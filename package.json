@@ -1,0 +1,38 @@
+{
+  "name": "md-to-thread",
+  "version": "1.0.0",
+  "description": "Convert Markdown and long-form articles into optimized X (Twitter) threads, LinkedIn carousels, and Threads drafts.",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "type": "module",
+  "bin": {
+    "md-to-thread": "./bin/cli.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eco-null/md-to-thread.git"
+  },
+  "keywords": [
+    "markdown",
+    "twitter-thread",
+    "thread-splitter",
+    "x-thread",
+    "linkedin-carousel",
+    "content-repurposing",
+    "cli",
+    "social-media",
+    "threads"
+  ],
+  "author": "eco-null <emrecanozdal@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
