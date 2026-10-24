@@ -12,18 +12,16 @@
 Part of the **[PostReady.org](https://postready.org)** open-source content repurposing toolkit.
 
 ---
-
 ## Features
 
-- ✂️ **Natural Boundary Splitting:** Splits on paragraph and sentence boundaries without cutting mid-sentence.
-- 📐 **Social Presets:** Built-in limits for X Standard (280), Threads (500), Bluesky (300), LinkedIn (3000), and X Premium (4000).
-- 🔢 **Custom Thread Numbering:** `1/N`, `🧵 1/N`, `[1/N]`, `(1/N)`, or suffix formats.
-- 🧹 **Clean Formatting:** Strips noisy Markdown headers, raw links, and horizontal rules into clean social copy.
-- 💻 **Flexible I/O:** Run on files, pipe via `stdin`, or export as formatted terminal cards, plain text (`---`), or structured JSON.
-- ⚡ **Zero Runtime Dependencies:** Native Node.js ESM.
+- **Natural Boundary Splitting:** Splits on paragraph and sentence boundaries without cutting mid-sentence.
+- **Social Presets:** Built-in limits for X Standard (280), Threads (500), Bluesky (300), LinkedIn (3000), and X Premium (4000).
+- **Custom Thread Numbering:** `1/N`, ` 1/N`, `[1/N]`, `(1/N)`, or suffix formats.
+- **Clean Formatting:** Strips noisy Markdown headers, raw links, and horizontal rules into clean social copy.
+- **Flexible I/O:** Run on files, pipe via `stdin`, or export as formatted terminal cards, plain text (`---`), or structured JSON.
+- **Zero Runtime Dependencies:** Native Node.js ESM.
 
 ---
-
 ## Quick Start (CLI)
 
 Run directly with `npx`:
@@ -49,7 +47,6 @@ npm install -g md-to-thread
 ```
 
 ---
-
 ## CLI Options
 
 ```text
@@ -62,7 +59,7 @@ OPTIONS:
                              Presets: x-standard (280), threads (500),
                                       bluesky (300), linkedin (3000), x-premium (4000)
   -f, --format <style>        Thread counter style: fraction (1/N),
-                             thread (🧵 1/N), brackets ([1/N]), parens ((1/N)), suffix
+                             thread ( 1/N), brackets ([1/N]), parens ((1/N)), suffix
   --no-counter                Disable thread numbering
   --raw                       Do not clean markdown syntax
   --json                      Output structured JSON array
@@ -72,7 +69,6 @@ OPTIONS:
 ```
 
 ---
-
 ## Programmatic API
 
 Install locally:
@@ -105,7 +101,7 @@ console.log(thread);
   {
     index: 1,
     total: 2,
-    text: '🧵 1/2\n\nBuilding in Public\n\nShipping open-source tools...',
+    text: ' 1/2\n\nBuilding in Public\n\nShipping open-source tools...',
     charCount: 165,
     remainingChars: 115
   },
@@ -115,7 +111,6 @@ console.log(thread);
 ```
 
 ---
-
 ## About PostReady
 
 This tool was created by **[PostReady.org](https://postready.org)** — an AI content repurposing studio that turns blog articles, podcasts, and developer notes into editable X threads, LinkedIn posts, and newsletter drafts.
@@ -127,7 +122,6 @@ Check out our free web tools:
 - [LinkedIn Text Formatter](https://postready.org/en/tools/linkedin-text-formatter)
 
 ---
-
 ## License
 
 MIT © [eco-null](https://github.com/eco-null)
